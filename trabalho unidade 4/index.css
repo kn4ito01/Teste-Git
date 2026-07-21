@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(10, 10, 10);
+    background-image: url(images/codbo2.webp);
+    background-repeat: repeat-y;
+}
+h1{
+    color: rgb(73, 50, 205);
+    border:5px solid rgb rgb(158, 96, 199);
+    background-color: #7e3939;
+    
+}
+h2{
+    color: rgba(rgb(45, 150, 248));
+    border: 5px solid rgba(rgba(45, 150, 248, 0.514));
+}
+p.dotted {
+    border-style: dotted;    
+}
+
+p.dashed {border-style: dashed;
+}
+
+p.solid {border-style: solid;}
+
+p.double {border-style: double;}
+
+p.groove {groove}
+
+p.ridge {ridge}
+
+p.inset {inset:; ;}
+
+p.outset {}
+
+p.none {}
+
+p.hidden {}
+
+p.mix {}
