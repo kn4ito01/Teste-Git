@@ -19,3 +19,8 @@ img{
 table{
     border-color: black;
 }
+body{
+    background-image: url(images/codbo2.webp);
+    background-repeat: repeat;
+}
+
