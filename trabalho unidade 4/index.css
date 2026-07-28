@@ -52,8 +52,63 @@ p.três{
     border-style: solid;
     border-width: 2px 4px 6px 8px;
 }
-p.bordasArredondadas{
+p.bordasArredondadas1{
     border-style: solid;
-    border-width: 15px;
+    border-width: 5px;
+    border-radius: 5px;
+}
+p.bordasArredondadas2{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10px;
+}
+p.bordasArredondadas3{
+    border-style: solid;
+    border-width: 5px;
     border-radius: 15px;
 }
+p.bordasArredondadas4{
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 20px;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: left;
+}
+h4{
+    text-align: right;
+}
+h5{
+    text-align: justify;
+}
+a{
+    text-decoration: none;
+}
+h2.linhaAcima{
+    text-decoration:overline;
+}
+h3.tachado{
+    text-decoration:line-through;
+}
+h4.linhaAbaixo{
+    text-decoration:underline;
+}
+p.maiusculo{
+    text-transform:uppercase;
+}
+p.minusculo{
+    text-transform:lowercase;
+}
+h2.sombra{
+    text-shadow:3px 2px red
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+p.px{
+    font-size: 32px;
+}
+p.em{font-size: 2em;}
