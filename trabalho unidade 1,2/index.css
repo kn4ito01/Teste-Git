@@ -1,6 +1,7 @@
 
 header{
     display: flex;
+    text-shadow: 10px 10px yellow;
 
 }
 p{
@@ -18,9 +19,28 @@ img{
 }
 table{
     border-color: black;
+    border-width: 5px;
+    font-size: 20px;
 }
 body{
-    background-image: url(images/codbo2.webp);
+    background-color: rgb(10, 10, 10);
+    background-image: url(imgs/banana.webp);
     background-repeat: repeat;
+    
 }
+td{
+    border-width: 5px;
+    font-size: 20px;
+}
+th{
+    border: 5px;
+}
+div{}
+h2#titulo{
+    text-shadow: 10px 10px rgb(186, 221, 145);
+}
+p{
+    font-size: 20px;
+}
+    
 
