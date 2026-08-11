@@ -1,0 +1,44 @@
+body{
+    background-color: ;
+}
+div.topNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+a.topNav{
+    border: ;
+    display: flex;
+    flex-direction: row;
+    padding-left: 10%;
+    padding-right:10%;
+    padding-bottom: 25px;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 0px;
+    justify-content: center;
+}
+div.sobreMim{
+
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    flex-direction: row;
+    padding-left: 80px;
+
+
+}
+p#textoEu{
+    display: flex;
+    border-style: solid rgb(20,30,50);
+    font-size: 25px;
+
+
+}
+h1#tituloEu{
+    flex-direction: row;
+    display: flex;
+    justify-content: center;    
+}

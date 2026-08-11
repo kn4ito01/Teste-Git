@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios zikas</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="index.css" href="style.css">
+</head>
+
+<body>
+    <h2>formulários</h2>
+    <form action="action.html" method="post">
+        Teu nome : <input type="text" name="nome1"><br>
+        Sua senha : <input type="password" name="senha1">
+        <hr>
+        Qual jogo você gosta?<br>
+        <input type="radio" name="jogos" value="The binding of isaac" checked>The binding of isaac<br>
+        <input type="radio" name="jogos" value="bloons TD6">bloons TD6<br>
+        <input type="radio" name="jogos" value="Don't Starve Together">Don't Starve Together<br>
+        <input type="radio" name="jogos" value="Muck">Muck
+
+        <hr>
+        escolha do que você gosta<br>
+        <input type="checkbox" name="hobbys" value="goonar">goonar<br>
+        <input type="checkbox" name="hobbys" value="jogar">jogar<br>
+        <input type="checkbox" name="hobbys" value="assistir">assistir<br>
+        <input type="checkbox" name="hobbys" value="sair de casa">sair de casa
+
+        <hr>
+        que dia é<input type="date" name="horario"><br>
+        dia e hora<input type="datetime-local" name="horario">
+        <hr>
+        escolhe a cor ai<input type="color" name="cor">
+
+        <hr>
+        email <input type="email" name="email">
+        <hr>
+        arquivo <input type="file" name="arquivo">
+        <hr>
+        o quao bom TBOI(1-10) <input type="number" name="numero" min="1" max="10">
+        <hr>
+        o quao bom e DST <input type="range" name="reta" min="1" max="10">
+        <hr>
+        genero de jogo favorito<select name="genero de jogos" id="generos">
+            <option value="roguelike">roguelike</option>
+            <option value="RPG" selected>RPG</option>
+            <option value="AAA">AAA</option>
+        </select>
+        <hr>
+        <input type="text" name="texto" value="Azazel">
+        <input type="text" name="texto" value="Lazarus" readonly>
+        <input type="text" name="texto" value="Magdalene" disabled>
+
+        <hr>
+
+        <textarea name="areadetexto" id="areaDeTexto" rows="30" cols="50">
+        Nisekoi conta a história do estudante do ensino médio, Raku Ichijou, filho de um líder da facção yakuza Shuei-Gumi, e Chitoge Kirisaki, a filha de um chefe de uma gangue rival conhecida como Colmeia. Eles inesperadamente se encontram quando Chitoge pula de um muro e dá uma joelhada no rosto de Raku. Depois que ela foge, Raku percebe que perdeu o pingente que foi dado a ele por seu amor de infância, com quem fez uma promessa secreta. Depois de descobrir que Chitoge é uma aluna nova que foi transferida para sua classe, ele a obriga ajudá-lo a procurar pelo pingente. Durante a busca, eles começam a não gostar um do outro.[11]
+        </textarea>
+        <hr>
+        <button type="button" onclick="alert('chaga fih cabou a graça')">aperta ai</button>
+        <hr>
+        <input type="text" name="texto" value="esau" size="10%">
+        <input type="text" name="texto" value="Cain" maxlength="4">
+       escolha de 1 a 100 <input type="number" name="numero" value="0" min="0" max="100">
+       <input type="text" name="texto" placeholder="digite os numeros de tras do seu cartao">
+        sla<input type="text" name="texto" required>
+
+
+        enviar <input type="submit"><br>
+        resetar <input type="reset">
+        <hr>
+
+
+        <form>
+            <form action="action.html" method="get"><br>
+                seu nome² <input type="text" name="nome2"><br>
+                sua senha² <input type="password" name="senha2">
+
+                <hr>
+                <input type="radio" name="jogos" value="The binding of isaac" checked>The binding of isaac<br>
+                <input type="radio" name="jogos" value="bloons TD6">bloons TD6<br>
+                <input type="radio" name="diferente" value="Don't Starve Together">Don't Starve Together<br>
+                <input type="radio" name="jogos" value="Muck">Muck
+
+            </form>
+            <form action="action.php" method="get">
+                <select>
+
+            </form>
+            <form>
+                <textarea>
+    </form>
+    <form>
+        <button>
+    </form>
+
+
+</body>
+</html>
